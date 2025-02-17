@@ -1,7 +1,7 @@
 [build]
-  base = "Portfolio"   # Specify the folder name where your project is located
+  base = "."   # Specify root directory if the project is at the root of the repository
   command = "npm run build"   # Production build command
-  publish = "Portfolio/dist"   # The 'dist' folder where Vite builds the app
+  publish = "dist"            # Output directory for the production build (Vite)
 
 [dev]
   command = "npm run dev"     # Development server command
@@ -10,4 +10,4 @@
   from = "/"
   to = "/index.html"
   status = 200
-  force = true
+  force = true;
