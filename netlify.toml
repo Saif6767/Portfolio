@@ -1,7 +1,7 @@
 [build]
-  base = "."   # Specify root directory if the project is at the root of the repository
+  base = "Portfolio"   # Specify the folder name where your project is located
   command = "npm run build"   # Production build command
-  publish = "dist"            # Output directory for the production build (Vite)
+  publish = "Portfolio/dist"   # The 'dist' folder where Vite builds the app
 
 [dev]
   command = "npm run dev"     # Development server command
